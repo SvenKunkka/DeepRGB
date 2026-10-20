@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 ## DeepRGBD
 
 by Jonathan Balloch and David Bishai as class project for Advanced Computer Vision at Georgia Tech. Credit for the original deep model to the Pyramid Scene Parsing Network (PSPNet) from the guys over at Chinese University of Hong Kong.
@@ -127,3 +131,32 @@ For all other questions please reach out or consult the Issues area over at [PSP
 Please contact 'balloch@gatech.edu'
 
 
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+[dbishai/DeepRGB](https://github.com/dbishai/DeepRGB) 的分支，是 Jonathan Balloch 与 David Bishai 的计算机视觉课程项目，结合 PSPNet、Caffe 与 RGB-D 视频处理开展场景分割研究；保留相关原作者归属。
+
+**使用入口：** 按照 README 配置 Caffe 与 MATLAB 接口，编辑 `Makefile.config` 后运行 `make -j8`、`make matcaffe`；模型和评估路径在 `evaluation/` 配置。
+
+**范围说明：** 文档依赖旧版 Ubuntu、CUDA、cuDNN 和外部模型下载，属于历史研究环境；不据此保证现代系统兼容或模型链接仍可用。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A fork of [dbishai/DeepRGB](https://github.com/dbishai/DeepRGB), a computer-vision class project by Jonathan Balloch and David Bishai combining PSPNet, Caffe and RGB-D video processing for scene segmentation, with original research credits preserved.
+
+**Getting started:** Configure Caffe and its MATLAB interface following the README, edit `Makefile.config`, then run `make -j8` and `make matcaffe`. Configure models and evaluation paths in `evaluation/`.
+
+**Scope:** The documentation relies on older Ubuntu, CUDA and cuDNN versions and external model downloads. This historical research environment does not establish modern-system compatibility or continued availability of model links.
+
+**本 Fork 的维护者 / Maintainer of this fork:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+**上游项目 / Upstream:** [dbishai/DeepRGB](https://github.com/dbishai/DeepRGB)。保留原作者署名与原许可证 / Original authorship and license notices are retained.
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
